@@ -166,17 +166,16 @@ nav {
     margin: auto;
     font-size: 2rem;
   }
-  
 
   .div-1 {
     width: 100%;
     padding-left: 1em;
-
+    bottom: white;
   }
 
   .main-text {
     padding-left: 0;
-    font-size: 1em
+    font-size: 1em;
   }
 
   .sub-text {
@@ -200,9 +199,9 @@ nav {
     line-height: 2em;
   }
 
- .sub-text{
+  .sub-text {
     font-size: 1.1em;
- }
+  }
 
   .desktop {
     display: none;
@@ -215,5 +214,19 @@ nav {
   .bottom-logo > img {
     width: 100px;
     height: 80px;
+  }
+}
+
+@media only screen and (min-width: 830px) and (max-width: 1258px) {
+  .main-text {
+    font-size: 2em;
+    line-height: 2em;
+    padding-left: 0;
+    font-weight: 800;
+  }
+
+  .sub-text {
+    font-size: 1.5em;
+    padding-left: 0;
   }
 }
