@@ -4,6 +4,10 @@
   box-sizing: border-box;
 }
 
+body {
+  font-family: "Montserrat", sans-serif;
+}
+
 .landing {
   min-height: 100vh;
   background-color: yellow;
@@ -55,6 +59,7 @@ nav {
   padding-left: 1em;
   color: #f9bd00;
   font-size: 3.5em;
+  font-weight: 800;
 }
 
 .sub-text {
@@ -63,6 +68,7 @@ nav {
   color: white;
   font-size: 1.5em;
   line-height: 1.6em;
+  font-weight: 600;
 }
 
 .bottom-logo {
@@ -75,9 +81,6 @@ nav {
   height: 100px;
 }
 
-
-
-
 .big-text {
   position: absolute;
   left: 50%;
@@ -85,8 +88,8 @@ nav {
   transform: translate(-50%, -30%);
   font-size: 5rem;
 }
-.main-pics > img{
-    width: 100%;
+.main-pics > img {
+  width: 100%;
 }
 
 /* .main-pics{
@@ -110,10 +113,9 @@ nav {
   font-size: 3rem;
 }
 
-.main-content{
-   
-    position: absolute;
-    top:-10%;
+.main-content {
+  position: absolute;
+  top: -10%;
 }
 
 .slider {
@@ -146,13 +148,13 @@ nav {
   color: #f9bd00;
 }
 
-.desktop{
-    display: block;
-  }
+.desktop {
+  display: block;
+}
 
-  .mobile{
-    display: none;
-  }
+.mobile {
+  display: none;
+}
 
 @media only screen and (max-width: 830px) {
   .intro {
@@ -164,6 +166,7 @@ nav {
     margin: auto;
     font-size: 2rem;
   }
+  
 
   .div-1 {
     width: 100%;
@@ -171,16 +174,16 @@ nav {
 
   }
 
- .main-text{
+  .main-text {
     padding-left: 0;
- }
+    font-size: 1em
+  }
 
- .sub-text{
+  .sub-text {
     padding-left: 0;
- }
-  
+  }
 
-  .div-2{
+  .div-2 {
     display: none;
   }
 
@@ -193,15 +196,24 @@ nav {
   }
 
   .main-text {
-    font-size: 2em;
+    font-size: 1.5em;
     line-height: 2em;
   }
 
-  .desktop{
+ .sub-text{
+    font-size: 1.1em;
+ }
+
+  .desktop {
     display: none;
   }
 
-  .mobile{
+  .mobile {
     display: block;
+  }
+
+  .bottom-logo > img {
+    width: 100px;
+    height: 80px;
   }
 }
