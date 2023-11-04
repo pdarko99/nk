@@ -10,7 +10,7 @@ tl.to(".intro", {y:"-100%", duration: 1}, "-=1.5");
 
 tl.fromTo(".content", {opacity:0}, {opacity:1, duration:1});
 
-tl.fromTo(".main-content", {opacity:0}, {opacity:1, duration:1}, "-=1");
+tl.fromTo(".main_pics", {opacity:0}, {opacity:1, duration:1}, "-=1");
 
 
 
