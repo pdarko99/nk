@@ -115,18 +115,44 @@ nav {
   overflow: hidden;
   padding: 10px 0;
 }
-.logos:hover .logos-slide{
+.logos:hover .logos-slide {
   animation-play-state: paused;
 }
 
 .logos-slide {
   display: inline-block;
-  animation:13s slide infinite linear;
+  animation: 13s slide infinite linear;
 }
 
 .logos-slide img {
   height: 200px;
   margin: 0 20px;
+}
+
+.start {
+  height: 50%;
+}
+.bottom {
+  margin: auto;
+  margin-top: 1em;
+  height: 50%;
+  text-align: center;
+}
+
+.bottom > .container{
+  padding-top: 3.5em;
+
+}
+
+.counter {
+  font-size: 7em;
+  font-weight: bold;
+  color: #f9bd00;
+}
+
+.statement {
+  font-size: 1.5em;
+  color: #f9bd00;
 }
 
 .div-1 {
