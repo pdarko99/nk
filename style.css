@@ -89,16 +89,56 @@ nav {
 
 .our_works {
   width: 100%;
-  background-color: #f9bd00;
+  background-color: #032f6d;
 }
 
 .metrics {
   width: 100%;
-  height: 100vh;
+  /* height: 100vh; */
   background-color: #032f6d;
   padding: 2em 0;
 
   /* f9bd00 */
+}
+
+.contact-us {
+  width: 100%;
+  background-color: #032f6d;
+  padding: 2em 0;
+}
+
+.contact-us-info {
+  font-size: 3em;
+  color: #f9bd00;
+}
+
+.contact-us-content {
+  text-align: center;
+  margin-top: 3em;
+}
+
+.statement-container {
+  margin-top: 1em;
+  font-size: 1.5em;
+  color: #fff;
+}
+
+.contact-form {
+  margin-top: 5em;
+}
+
+.contact-form > h1 {
+  color: #f9bd00 !important;
+}
+
+.form-container {
+  width: 60%;
+  margin: auto;
+  color: #fff;
+}
+
+#emailHelp {
+  color: #fff !important;
 }
 
 @keyframes slide {
@@ -139,9 +179,8 @@ nav {
   text-align: center;
 }
 
-.bottom > .container{
+.bottom > .container {
   padding-top: 3.5em;
-
 }
 
 .counter {
@@ -297,6 +336,10 @@ nav {
   display: none;
 }
 
+.client-container {
+  padding-top: 3rem;
+}
+
 @media only screen and (max-width: 830px) {
   .main_pics {
     display: none;
@@ -370,6 +413,43 @@ nav {
   .bottom-logo > img {
     width: 100px;
     height: 80px;
+  }
+
+  .logos-slide img {
+    height: 100px;
+  }
+
+  .bottom {
+    margin-top: 0.5em;
+    height: 70%;
+  }
+
+  .bottom > .container {
+    padding-top: 0.5em;
+  }
+
+  .start {
+    height: 30%;
+  }
+
+  .counter {
+    font-size: 5em;
+  }
+
+  .client-container {
+    padding-top: 1rem;
+  }
+
+  .counter-container {
+    padding-bottom: 1.5em;
+  }
+
+  .content {
+    display: block !important;
+  }
+
+  .form-container {
+    width: 90%;
   }
 }
 

@@ -176,7 +176,7 @@
 
       <section class="metrics">
         <div class="start">
-          <div class="text-center pt-5 pb-3">
+          <div class="text-center client-container pb-3">
             <h1 class="display-4 text-light">Our Clients</h1>
           </div>
           <div class="container logos">
@@ -310,20 +310,119 @@
         <div class="bottom">
           <div class="container">
             <div class="row">
-              <div class="col-md-4 col-sm-12">
+              <div class="col-md-4 counter-container col-sm-12">
                 <h1 class="counter" data-count="50">50+</h1>
                 <p class="statement">Satisfied Clients since 2019</p>
               </div>
-              <div class="col-md-4 col-sm-12">
+              <div class="col-md-4 counter-container col-sm-12">
                 <h1 class="counter" data-count="300">300+</h1>
                 <p class="statement">Projects completed</p>
               </div>
-              <div class="col-md-4 col-sm-12">
+              <div class="col-md-4 counter-container col-sm-12">
                 <h1 class="counter" data-count="20">20</h1>
                 <p class="statement">Services to propel your brand</p>
               </div>
             </div>
           </div>
+        </div>
+      </section>
+
+      <section class="contact-us">
+        <div class="text-center client-container pb-3">
+          <h1 class="display-4 text-light">Contact Us</h1>
+        </div>
+
+        <div class="contact-us-content">
+          <div class="container">
+            <div class="row">
+              <div class="col-md-4 counter-container col-sm-12">
+                <div>
+                  <h1 class="contact-us-info">Address</h1>
+                  <div class="statement-container">
+                    <p>Unknown street, Ashaiman</p>
+                    <p>Accra Ghana</p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-4 counter-container col-sm-12">
+                <div>
+                  <h1 class="contact-us-info">Contact</h1>
+                  <div class="statement-container">
+                    <p>+233 87 354 0963</p>
+                    <p>+233 27 335 0061</p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-4 counter-container col-sm-12">
+                <div>
+                  <h1 class="contact-us-info">Opening hours</h1>
+                  <div class="statement-container">
+                    <p>Monday - Friday</p>
+                    <p>8:00 am - 5:00 pm</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="text-center contact-form pb-3">
+          <h1 class="display-6 text-light">Any Enquiry? Reach out to us</h1>
+        </div>
+
+        <div class="form-container">
+          <form id="myForm">
+            <div class="form-group">
+              <label for="exampleInputFirstName" class="mb-2">FirstName</label>
+              <input
+                required
+                type="text"
+                class="form-control"
+                id="exampleInputFirstName"
+                placeholder="Enter first name"
+              />
+            </div>
+            <div class="form-group mt-4">
+              <label for="exampleInputLastName" class="mb-2">LastName</label>
+              <input
+                required
+                type="text"
+                class="form-control"
+                id="exampleInputLastName"
+                placeholder="Enter last name"
+              />
+            </div>
+            <div class="form-group mt-4">
+              <label for="exampleInputEmail" class="mb-2">Email</label>
+              <input
+                required
+                type="email"
+                class="form-control"
+                id="exampleInputEmail"
+                aria-describedby="emailHelp"
+                placeholder="Enter email"
+              />
+              <small id="emailHelp" class="form-text text-muted"
+                >We'll never share your email with anyone else.</small
+              >
+            </div>
+            <div class="form-group mt-4">
+              <label for="exampleFormControlTextarea1">Message</label>
+              <textarea
+                required
+                class="form-control"
+                id="exampleFormControlTextarea1"
+                rows="3"
+                placeholder="Enter message"
+              ></textarea>
+            </div>
+
+            <div id="thankYouMessage" style="display: none; margin-top: 3em">
+              Thank you! Your form has been submitted.
+            </div>
+
+            <button type="submit" class="btn btn-primary mt-4">Submit</button>
+          </form>
         </div>
       </section>
 
